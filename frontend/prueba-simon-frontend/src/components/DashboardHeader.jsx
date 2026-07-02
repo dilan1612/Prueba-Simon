@@ -45,9 +45,7 @@ export function DashboardHeader({
             </span>
             {isOnline ? 'En vivo' : 'Sin conexión'}
           </span>
-          <span className="text-xs text-muted-foreground">
-            Última actualización: {formatRelativeTime(lastUpdated, now)}
-          </span>
+         
         </div>
 
         <Button

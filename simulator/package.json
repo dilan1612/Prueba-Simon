@@ -1,0 +1,13 @@
+{
+  "name": "gps-telemetry-simulator",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Simulador de telemetría: vehículos que envían coordenadas GPS al backend.",
+  "scripts": {
+    "start": "node simulator.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
